@@ -14,7 +14,11 @@
 
 ### 🎯 유저 타게팅
   - 펀딩 참여자
+    * 펀딩을 통해 제품을 구매할 때, 소비자는 일반 시장에서 찾기 어려운 혹은 아직 출시되지 않은 독특하고 혁신적인 제품을 찾고자 하기 때문에 해당 서비스에 큰 매력을 느낄 수 있습니다.
+    * 일반적으로 펀딩에 참여한 유저들은 시중에서 낱개로 판매하는 제품보다 공동 구매를 통해 더 저렴한 가격에 구매할 수 있는 혜택을 받을 수 있습니다.
+
   - 펀딩 생성자
+    * 펀딩을 통해 혁신적이고 다양한 아이디어의 제품을 소개하고 판매할 수 있으며, 타 매장에서 공식적으로 제품을 출시하기 전 펀딩을 통해 미리 소비자들에게 제공해보며 상품에 대한 평가 및 경쟁 우위를 확보할 수 있는 기회를 제공합니다.
 
 ### 💡 서비스 목적
   - 다양한 국가에서 생산되고 판매되는 좋은 아이디어의 상품을 펀딩을 통해 구매함으로 개인적으로 구매했을 때 보다 더 저렴한 가격으로 편리하게 구매할 수 있도록 합니다.
@@ -56,7 +60,7 @@
 
 ### 🔗 기능 명세
 - 로그인
-  * 가입한 사용자는 등록된 이메일과 비밀번호를 입력하여 로그인할 수 있으며, 소셜 미디어 계정을 통한 로그인도 가능합니다.
+  * 가입한 사용자는 등록된 이메일과 비밀번호를 입력하여 로그인할 수 있으며, ~~소셜 미디어 계정을 통한 로그인~~도 가능합니다.
  
 - 회원가입
   * 사용자는 이메일과 비밀번호를 입력하여 서비스를 가입할 수 있으며, 가입 단계에서 이메일 인증을 통해 회원가입을 완료할 수 있습니다.
@@ -68,10 +72,6 @@
  
 - 마이 페이지
   * 사용자는 마이 페이지에서 개인 정보를 관리하고 프로필을 설정할 수 있으며, 펀딩에 참여한 내역과 즐겨찾기 및 알림설정을 한 펀딩에 대한 정보를 쉽게 확인할 수 있습니다.
- 
-- 제품 상세 정보
-  * 제품 상세 정보 페이지에서는 각 제품에 대한 설명, 가격 등 다양한 정보를 확인할 수 있으며 즐겨찾기 및 알림설정이 가능합니다.
-  * 공지사항, 도움말 등 서비스 이용 중 불편함을 해소하기 위한 기능을 제공합니다.
 
 - 카테고리 및 검색 결과
   * 카테고리를 탐색하거나 검색 기능을 통해 원하는 펀딩 제품을 찾을 수 있으며, 검색 결과는 관련성에 따라 정렬됩니다.
@@ -79,6 +79,10 @@
  
 - 펀딩 생성하기
   * 새로운 펀딩을 생성하여 원하는 제품에 대한 펀딩을 진행할 수 있으며 제목, 설명, 목표 금액 등을 설정하여 펀딩을 시작할 수 있습니다.
+ 
+- 제품 상세
+  * 제품 상세 정보 페이지에서는 각 제품에 대한 설명, 가격 등 다양한 정보를 확인할 수 있으며 즐겨찾기 및 알림설정이 가능합니다.
+  * 공지사항, 도움말 등 서비스 이용 중 불편함을 해소하기 위한 기능을 제공합니다.
 
 ### 🖼️ 화면 구성
 
@@ -101,22 +105,87 @@
   </tr>
 
   <tr>
-    <td></td>
-    <td></td>
+    <td><img src="https://github.com/9oormthonUNIV-JNU/TEAM-A/blob/main/pic/main.png" width="auto" height="auto"></td>
+    <td><img src="https://github.com/9oormthonUNIV-JNU/TEAM-A/blob/main/pic/mypage.png" width="auto" height="auto"></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td align="center"><b>제품 상세 정보</b></td>
     <td align="center"><b>카테고리 및 검색 결과</b></td>
     <td align="center"><b>펀딩 생성하기</b></td>
   </tr>
 
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><img src="https://github.com/9oormthonUNIV-JNU/TEAM-A/blob/main/pic/search.png" width="auto" height="auto"></td>
+    <td><img src="https://github.com/9oormthonUNIV-JNU/TEAM-A/blob/main/pic/create_funding.png" width="auto" height="auto"></td>
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td align="center"><b>제품 상세 (정보)</b></td>
+    <td align="center"><b>제품 상세 (댓글)</b></td>
+  </tr>
+
+  <tr>
+    <td><img src="https://github.com/9oormthonUNIV-JNU/TEAM-A/blob/main/pic/product_info.png" width="auto" height="auto"></td>
+    <td><img src="https://github.com/9oormthonUNIV-JNU/TEAM-A/blob/main/pic/product_comment.png" width="auto" height="auto"></td>
+  </tr>
+</table>
+
+
+
+### 🔍 개발 파트
+
+  #### 📈 서비스 워크플로우
+  
+
+
+  #### 📖 프론트엔드 상세 진행 업무 내용
+  <table>
+  <tr>
+    <td>언어</td>
+    <td>TypeScript</td>
+  </tr>
+
+  <tr>
+    <td>라이브러리</td>
+    <td>React-hook-form, tanstack/react-query, Recoil, Styled-components, mui/materials</td>
+  </tr>
+</table>
+
+  - 인증
+    * 엑세스 토큰을 받은 후 localStorage 에 저장합니다.
+    * 만료 시간 1시간을 계산하여 만료 시간이 되었다면 로그아웃하는 로직
+    * 필요한 요청에 따라 토큰 부여(토큰이 필요한 페이지와 컴포넌트에서 토큰을 불러와 사용자 인증하는 기능 등)
+   
+  - 라우팅
+    * 기본적인 페이지별로 라우팅을 나누었음
+    * 경로는 layout (Main), authLayout (Auth) 로 설정하여 설계 에러 시 Error Component 표시
+   
+  - 검색창
+    * Recoil 상태 관리 라이브러리를 사용하여 프론트에 검색 값을 저장
+    * 새로고침 시 recoil-persist 로 인해 값이 사라지지 않게 구현하였고, 전체 삭제 또한 가능함
+   
+  - 카테고리 및 검색 결과 페이지 + 제품 상세 페이지
+    * react-query 를 사용하여 비동기 처리
+    * '로딩 중'과 '에러' 표시 구현 정보를 캐싱해 놓음으로써 사용자에게 빠른 화면 전환을 보여줌
+    * Pagination 기능 (react-query 의 프리패칭)
+   
+  - Form
+    * 회원가입, 로그인, 펀딩 생성 폼의 경우, react-hook-form 라이브러리를 사용하여 에러 처리를 확실히 하며 사용자 경험을 개선시킴
+   
+  - 메인 페이지 내에서의 마감 임박 상품
+    * 서버에서 펀딩 마감으로부터 남은 시간을 받아 초로 변환 후 useEffect 를 사용하여 -1초가 될 때마다 해당 부분 데이터 변경
+
+  - 배포
+    * Netlify 이용
+   
+  #### ❗️ 프론트엔드 이슈
+  - 실수를 줄이고자 TypeScript 를 사용해서 진행을 했지만, 프로젝트를 빠르게 끝내겠다는 생각에 타입을 제대로 설정해주지 못하게 되어 배포 빌드 단계에서 어려움을 겪음
+
+  #### 📖 백엔드 상세 진행 업무 내용
+
+
+  #### ❗️ 백엔드 이슈
